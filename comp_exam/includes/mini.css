@@ -1,0 +1,114 @@
+
+.explanation{
+    background-color: #ADE0C1;
+    color: #030;
+    border-color: #030;
+    font-family: inherit;
+    padding: 1rem;
+}
+
+#mydiv{
+    display: none;
+}
+
+.explanation-text{
+    margin-bottom: 0%;
+}
+
+.option_styles{
+    color: white;
+    font-weight: 500;
+    padding: 0px 10px 2px 10px;
+    border-radius: 10px;
+}
+
+
+#header {
+    width:60%;
+    display: flex;
+    margin: 0 auto;
+/*    border-bottom: 2px solid maroon;*/
+}
+.line-hr{
+    width:80%;
+    border: 1px solid maroon;
+}
+
+.img-box {
+    height: 8rem;
+    margin-right: 3rem;
+}
+
+.img-box img {
+    height: 90%;
+    margin-top: 1.5rem;
+}
+
+.text-box {
+    margin: 40px auto auto 0;
+    text-align: center;
+    
+}
+
+.primary-heading {
+    margin-bottom: 1rem;
+    font-size: 1.5rem !important;
+}
+.secondary-heading {
+    font-size: 1.5rem !important;
+}
+
+
+.mad , .mad1{
+    display: none;
+}
+
+.shom:hover .mad1{
+    display: block;
+}
+
+.mad2{
+    display: block;
+}
+
+a.ml-1.text-dark{
+    font-weight:500 !important;
+}
+
+
+
+.rounded-top{
+    border-top-left-radius: 2.5px;
+    border-top-right-radius: 2.5px ;
+
+}
+.rounded-bottom{
+    border-bottom-left-radius: 2.5px ;
+    border-bottom-right-radius: 2.5px ;
+
+}
+
+.strech_topics{
+
+}
+
+.stretch_topics {
+    /* transition: all 1s ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden; */
+    opacity:0;
+    max-height: 0;
+    transition: max-height .5s ease-out, opacity .3s;
+
+}
+.showm:hover > .stretch_topics {
+    opacity: 1;
+    max-height: 200px;
+}
+
+.showm{
+    margin-top:20px;
+    width: 60%;
+    margin-left:20%;
+}
